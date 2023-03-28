@@ -5,6 +5,23 @@ a{
     text-decoration: none;
   }
   a:hover {
-    color: chocolate !important;
+    color: #DFA67B !important;
     cursor: pointer;
+  }
+  body{
+    background-color: #DFA67B;
+  }
+  #def{
+    text-align: center;
+    align-items: center;
+  }
+  #down{
+    text-align: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: 'Alkatra', cursive;
+  }
+  *{
+    font-family: 'Roboto', sans-serif;
   }
