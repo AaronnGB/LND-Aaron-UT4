@@ -5,11 +5,11 @@ a{
     text-decoration: none;
   }
   a:hover {
-    color: #DFA67B !important;
+    color: #C58940 !important;
     cursor: pointer;
   }
   body{
-    background-color: #DFA67B;
+    background-color: #C58940;
   }
   #def{
     text-align: center;
@@ -21,6 +21,9 @@ a{
   }
   h1 {
     font-family: 'Alkatra', cursive;
+    font-size: 5em;
+    color: #E5BA73;
+
   }
   *{
     font-family: 'Roboto', sans-serif;
