@@ -74,22 +74,32 @@
     <!--CARRUSEL-->
 
     <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
+        <div class="carousel-inner" data-bs-ride="carousel">
             <center>
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="2000">
                     <img height="400px" src="Bárbaro-removebg-preview.png" class="d-block w-25" alt="Bárbaro">
                     <h5>Bárbaro</h5>
                     <p>Tropa terrestre con daño cuerpo a cuerpo</p>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                     <img height="400px" src="Arquera-removebg-preview.png" class="d-block w-25" alt="Arquera">
                     <h5>Arquera</h5>
                     <p>Tropa terrestre con daño a distancia</p>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="2000">
                     <img height="400px" src="Gigante-removebg-preview.png" class="d-block w-25" alt="Gigante">
                     <h5>Gigante</h5>
                     <p>Tropa terrestre con daño cuerpo a cuerpo centrada en derribar defensas</p>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img height="400px" src="Duende_coc-removebg-preview.png" class="d-block w-25" alt="Duende">
+                    <h5>Duende</h5>
+                    <p>Tropa terrestre con daño cuerpo a cuerpo centrada en robar recursos</p>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img height="400px" src="rompemuros_coc-removebg-preview.png" class="d-block w-25" alt="Rompemuros">
+                    <h5>Rompemuros</h5>
+                    <p>Tropa terrestre cuya uúnica misión es acabar con los muros</p>
                 </div>
             </center>
         </div>
@@ -105,45 +115,45 @@
 
     <!--LISTA-->
 
-    <section id="Coleccion">
-        <h2>Tienda</h2>
+    <section>
+        <h2 class="pb-2 border-bottom border-top">Tienda</h2>
         <div class="row">
             <div class="card col-lg-3 col-md-6 col-sm-12">
-                <img src="Sudadera_coc-removebg-preview.png" class="card-img-top">
+                <img height="375px" src="Sudadera_coc-removebg-preview.png" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Sudadera  CoC</h5>
+                    <h5 class="card-title">Sudadera CoC</h5>
                     <p class="card-text ">Sudadera Eat Sleep Clash Repeat</p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">22'99€</li>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="https://store.supercell.com/es/game/clashofclans" class="btn btn-primary">Comprar</a>
                     </div>
                 </ul>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
                 <img src="Camisa-removebg-preview.png" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Camisa  CoC</h5>
+                    <h5 class="card-title">Camisa CoC</h5>
                     <p class="card-text ">Camisa I´d 3-star your mom</p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">12'99€</li>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="https://store.supercell.com/es/game/clashofclans" class="btn btn-primary">Comprar</a>
                     </div>
                 </ul>
             </div>
             <div class="card col-lg-3 col-md-6 col-sm-12">
                 <img src="peluche baby dragon.png" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Peluche  CoC</h5>
+                    <h5 class="card-title">Peluche CoC</h5>
                     <p class="card-text ">Peluche Bebé Dragón</p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">18'99€</li>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        <a href="https://store.supercell.com/es/game/clashofclans" class="btn btn-primary">Comprar</a>
                     </div>
                 </ul>
             </div>
@@ -162,6 +172,128 @@
             </div>
         </div>
     </section>
+    &nbsp;
+
+    <!--VÍDEOS-->
+
+    <h2 class="pb-2 border-bottom border-top">Contenido</h2>
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DDY6KjQCMoQ" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XH3Xu1-cvII" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </center>
+    &nbsp;
+
+    <!--TROPAS-->
+
+    <h2 class="pb-2 border-bottom border-top">Tropas</h2>
+    <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Tropas de Elixir
+        </a>
+    </p>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            <section>
+                <div class="row">
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="Bárbaro-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Bárbaro</h5>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="Arquera-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Arquera</h5>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="Gigante-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Gigante</h5>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="Duende_coc-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Duende</h5>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="rompemuros_coc-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Rompemuros</h5>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="Globo_coc-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Globo Bombástico</h5>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="mago_coc-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Mago</h5>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="Sanadora_coc-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Sanadora</h5>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="dragon_coc-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Dragón</h5>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="card col-lg-3 col-md-6 col-sm-12">
+                        <img height="500px" src="pekka_coc-removebg-preview.png" class="card-img-top">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">Pekka</h5>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 
     <!--FOOTER-->
 
